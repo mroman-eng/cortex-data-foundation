@@ -1,15 +1,15 @@
 {
-    "testData": false,
+    "testData": true,
     "deploySAP": true,
     "deploySFDC": true,
     "deployMarketing": true,
     "deployOracleEBS": true,
     "enableTaskDependencies": false,
     "turboMode": true,
-    "projectIdSource": "data-ai-lab-485911",
-    "projectIdTarget": "data-ai-lab-485911",
-    "targetBucket": "bucket-cortex-transform-dev",
-    "location": "EU",
+    "projectIdSource": "",
+    "projectIdTarget": "",
+    "targetBucket": "",
+    "location": "US",
     "testDataProject": "kittycorn-public",
     "k9": {
         "datasets": {
@@ -80,13 +80,12 @@
             "S"
         ],
         "currencies": [
-            "USD",
-            "EUR"
+            "USD"
         ],
         "datasets": {
-            "cdc": "bronze_dev",
-            "raw": "bronze_dev",
-            "reporting": "gold_cortex_reporting_dev"
+            "cdc": "",
+            "raw": "",
+            "reporting": "REPORTING"
         }
     },
     "SFDC": {
