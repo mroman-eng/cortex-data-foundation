@@ -1,0 +1,6 @@
+{
+  "name": "sap-cortex-transform",
+  "dependencies": {
+    "@dataform/core": "3.0.0"
+  }
+}

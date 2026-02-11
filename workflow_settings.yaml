@@ -1,3 +1,5 @@
-defaultProjectConfig:
-  defaultDatabase: data-ai-lab-485911
-  defaultLocation: europe-southwest1
+dataformCoreVersion: "3.0.37"
+defaultProject: "data-ai-lab-485911"
+defaultLocation: "europe-southwest1"
+defaultDataset: "gold_cortex_reporting_dev"
+defaultAssertionDataset: "gold_cortex_reporting_dev_assertions"
