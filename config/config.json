@@ -90,7 +90,7 @@
         }
     },
     "SFDC": {
-        "deployCDC": true,
+        "deployCDC": false,
         "createMappingViews": true,
         "createPlaceholders": true,
         "currencies": [
@@ -103,17 +103,17 @@
         }
     },
     "marketing": {
-        "deployGoogleAds": true,
-        "deployCM360": true,
-        "deployTikTok": true,
-        "deployLiveRamp": true,
-        "deployMeta": true,
-        "deploySFMC": true,
-        "deployDV360": true,
-        "deployGA4": true,
+        "deployGoogleAds": false,
+        "deployCM360": false,
+        "deployTikTok": false,
+        "deployLiveRamp": false,
+        "deployMeta": false,
+        "deploySFMC": false,
+        "deployDV360": false,
+        "deployGA4": false,
         "dataflowRegion": "",
         "GoogleAds": {
-            "deployCDC": true,
+            "deployCDC": false,
             "lookbackDays": 180,
             "datasets": {
                 "cdc": "",
@@ -122,7 +122,7 @@
             }
         },
         "CM360": {
-            "deployCDC": true,
+            "deployCDC": false,
             "dataTransferBucket": "",
             "datasets": {
                 "cdc": "",
@@ -131,7 +131,7 @@
             }
         },
         "TikTok": {
-            "deployCDC": true,
+            "deployCDC": false,
             "datasets": {
                 "cdc": "",
                 "raw": "",
@@ -144,7 +144,7 @@
             }
         },
         "Meta": {
-            "deployCDC": true,
+            "deployCDC": false,
             "datasets": {
                 "cdc": "",
                 "raw": "",
@@ -152,7 +152,7 @@
             }
         },
         "SFMC": {
-            "deployCDC": true,
+            "deployCDC": false,
             "fileTransferBucket": "",
             "datasets": {
                 "cdc": "",
@@ -161,7 +161,7 @@
             }
         },
         "DV360": {
-            "deployCDC": true,
+            "deployCDC": false,
             "datasets": {
                 "raw": "",
                 "cdc": "",
