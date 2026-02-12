@@ -1,5 +1,5 @@
 {
-    "testData": false,
+    "testData": true,
     "deploySAP": true,
     "deployDataMesh": true,
     "turboMode": true,
