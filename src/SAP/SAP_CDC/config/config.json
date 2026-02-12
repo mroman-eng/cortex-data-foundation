@@ -4,7 +4,7 @@
     "turboMode": true,
     "projectIdSource": "",
     "projectIdTarget": "",
-    "location": "US",
+    "location": "europe-southwest1",
     "targetBucket": "",
     "SAP": {
         "deployCDC": true,
@@ -15,12 +15,12 @@
             "S"
         ],
         "currencies": [
-            "USD"
+            "USD","EUR"
         ],
         "datasets": {
-            "cdc": "",
-            "raw": "",
-            "reporting": "REPORTING"
+            "cdc": "bronze_cortex_dev",
+            "raw": "bronze_cortex_dev",
+            "reporting": "gold_cortex_reporting_dev"
         }
     }
 }
