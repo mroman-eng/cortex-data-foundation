@@ -84,7 +84,7 @@
             "EUR"
         ],
         "datasets": {
-            "cdc": "bronze_cortex_dev",
+            "cdc": "bronze_cortex_dev_temp",
             "raw": "bronze_cortex_dev",
             "reporting": "gold_cortex_dev"
         }
