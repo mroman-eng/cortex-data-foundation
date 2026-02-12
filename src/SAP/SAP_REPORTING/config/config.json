@@ -2,7 +2,7 @@
     "testData": true,
     "deploySAP": true,
     "deployDataMesh": true,
-    "turboMode": true,
+    "turboMode": false,
     "projectIdSource": "data-ai-lab-485911",
     "projectIdTarget": "data-ai-lab-485911",
     "location": "europe-southwest1",
