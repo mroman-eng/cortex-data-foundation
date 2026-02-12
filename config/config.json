@@ -85,7 +85,7 @@
         ],
         "datasets": {
             "cdc": "bronze_cortex_dev_temp",
-            "raw": "bronze_cortex_dev",
+            "raw": "bronze_cortex_dev_temp",
             "reporting": "gold_cortex_dev"
         }
     },
