@@ -9,7 +9,7 @@
     "projectIdSource": "data-ai-lab-485911",
     "projectIdTarget": "data-ai-lab-485911",
     "targetBucket": "bucket-cortex-transform-dev",
-    "location": "EU",
+    "location": "europe-southwest1",
     "testDataProject": "kittycorn-public",
     "k9": {
         "datasets": {
