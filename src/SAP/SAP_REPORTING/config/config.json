@@ -5,7 +5,7 @@
     "turboMode": true,
     "projectIdSource": "",
     "projectIdTarget": "",
-    "location": "US",
+    "location": "europe-southwest1",
     "targetBucket": "",
     "k9": {
         "datasets": {
@@ -29,12 +29,12 @@
             "S"
         ],
         "currencies": [
-            "USD"
+            "USD","EUR"
         ],
         "datasets": {
-            "cdc": "",
-            "raw": "",
-            "reporting": "REPORTING",
+            "cdc": "silver_cortex_dev",
+            "raw": "bronze_cortex_dev",
+            "reporting": "gold_cortex_reporting_dev",
             "cdcECC": "",
             "rawECC": "",
             "cdcS4": "",
