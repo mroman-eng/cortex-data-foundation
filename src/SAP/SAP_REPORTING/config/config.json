@@ -33,10 +33,10 @@
         ],
         "datasets": {
             "cdc": "silver_cortex_dev",
-            "raw": "bronze_cortex_dev",
+            "raw": "bronze_cortex_dev_temp",
             "reporting": "gold_cortex_dev",
             "cdcECC": "silver_cortex_dev",
-            "rawECC": "bronze_cortex_dev",
+            "rawECC": "bronze_cortex_dev_temp",
             "cdcS4": "",
             "rawS4": ""
         }
