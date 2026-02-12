@@ -34,7 +34,7 @@
         "datasets": {
             "cdc": "silver_cortex_dev",
             "raw": "bronze_cortex_dev",
-            "reporting": "gold_cortex_reporting_dev",
+            "reporting": "gold_cortex_dev",
             "cdcECC": "silver_cortex_dev",
             "rawECC": "bronze_cortex_dev",
             "cdcS4": "",
