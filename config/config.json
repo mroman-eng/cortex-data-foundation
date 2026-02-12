@@ -1,9 +1,9 @@
 {
     "testData": false,
     "deploySAP": true,
-    "deploySFDC": true,
-    "deployMarketing": true,
-    "deployOracleEBS": true,
+    "deploySFDC": false,
+    "deployMarketing": false,
+    "deployOracleEBS": false,
     "enableTaskDependencies": false,
     "turboMode": true,
     "projectIdSource": "data-ai-lab-485911",

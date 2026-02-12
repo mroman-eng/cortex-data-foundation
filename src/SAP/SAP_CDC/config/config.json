@@ -1,11 +1,11 @@
 {
-    "testData": true,
+    "testData": false,
     "deploySAP": true,
     "turboMode": true,
-    "projectIdSource": "",
-    "projectIdTarget": "",
+    "projectIdSource": "data-ai-lab-485911",
+    "projectIdTarget": "data-ai-lab-485911",
     "location": "europe-southwest1",
-    "targetBucket": "",
+    "targetBucket": "bucket-cortex-transform-dev",
     "SAP": {
         "deployCDC": true,
         "SQLFlavor": "ecc",
