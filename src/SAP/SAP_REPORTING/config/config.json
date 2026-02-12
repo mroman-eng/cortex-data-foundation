@@ -1,12 +1,12 @@
 {
-    "testData": true,
+    "testData": false,
     "deploySAP": true,
     "deployDataMesh": true,
     "turboMode": true,
-    "projectIdSource": "",
-    "projectIdTarget": "",
-    "location": "US",
-    "targetBucket": "",
+    "projectIdSource": "data-ai-lab-485911",
+    "projectIdTarget": "data-ai-lab-485911",
+    "location": "europe-southwest1",
+    "targetBucket": "bucket-cortex-transform-dev",
     "k9": {
         "datasets": {
             "processing": "K9_PROCESSING"
@@ -29,14 +29,14 @@
             "S"
         ],
         "currencies": [
-            "USD"
+            "USD","EUR"
         ],
         "datasets": {
-            "cdc": "",
-            "raw": "",
-            "reporting": "REPORTING",
-            "cdcECC": "",
-            "rawECC": "",
+            "cdc": "silver_cortex_dev",
+            "raw": "bronze_cortex_dev",
+            "reporting": "gold_cortex_dev",
+            "cdcECC": "silver_cortex_dev",
+            "rawECC": "bronze_cortex_dev",
             "cdcS4": "",
             "rawS4": ""
         }

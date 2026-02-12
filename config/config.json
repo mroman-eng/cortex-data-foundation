@@ -1,9 +1,9 @@
 {
     "testData": false,
     "deploySAP": true,
-    "deploySFDC": true,
-    "deployMarketing": true,
-    "deployOracleEBS": true,
+    "deploySFDC": false,
+    "deployMarketing": false,
+    "deployOracleEBS": false,
     "enableTaskDependencies": false,
     "turboMode": true,
     "projectIdSource": "data-ai-lab-485911",
@@ -86,7 +86,7 @@
         "datasets": {
             "cdc": "bronze_cortex_dev",
             "raw": "bronze_cortex_dev",
-            "reporting": "gold_cortex_reporting_dev"
+            "reporting": "gold_cortex_dev"
         }
     },
     "SFDC": {
