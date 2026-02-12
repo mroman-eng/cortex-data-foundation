@@ -1,15 +1,15 @@
 {
-    "testData": false,
+    "testData": true,
     "deploySAP": true,
     "deploySFDC": true,
     "deployMarketing": true,
     "deployOracleEBS": true,
     "enableTaskDependencies": false,
     "turboMode": true,
-    "projectIdSource": "data-ai-lab-485911",
-    "projectIdTarget": "data-ai-lab-485911",
-    "targetBucket": "bucket-cortex-transform-dev",
-    "location": "EU",
+    "projectIdSource": "",
+    "projectIdTarget": "",
+    "targetBucket": "",
+    "location": "US",
     "testDataProject": "kittycorn-public",
     "k9": {
         "datasets": {
@@ -80,17 +80,16 @@
             "S"
         ],
         "currencies": [
-            "USD",
-            "EUR"
+            "USD"
         ],
         "datasets": {
-            "cdc": "bronze_dev",
-            "raw": "bronze_dev",
-            "reporting": "gold_cortex_reporting_dev"
+            "cdc": "",
+            "raw": "",
+            "reporting": "REPORTING"
         }
     },
     "SFDC": {
-        "deployCDC": false,
+        "deployCDC": true,
         "createMappingViews": true,
         "createPlaceholders": true,
         "currencies": [
@@ -103,17 +102,17 @@
         }
     },
     "marketing": {
-        "deployGoogleAds": false,
-        "deployCM360": false,
-        "deployTikTok": false,
-        "deployLiveRamp": false,
-        "deployMeta": false,
-        "deploySFMC": false,
-        "deployDV360": false,
-        "deployGA4": false,
+        "deployGoogleAds": true,
+        "deployCM360": true,
+        "deployTikTok": true,
+        "deployLiveRamp": true,
+        "deployMeta": true,
+        "deploySFMC": true,
+        "deployDV360": true,
+        "deployGA4": true,
         "dataflowRegion": "",
         "GoogleAds": {
-            "deployCDC": false,
+            "deployCDC": true,
             "lookbackDays": 180,
             "datasets": {
                 "cdc": "",
@@ -122,7 +121,7 @@
             }
         },
         "CM360": {
-            "deployCDC": false,
+            "deployCDC": true,
             "dataTransferBucket": "",
             "datasets": {
                 "cdc": "",
@@ -131,7 +130,7 @@
             }
         },
         "TikTok": {
-            "deployCDC": false,
+            "deployCDC": true,
             "datasets": {
                 "cdc": "",
                 "raw": "",
@@ -144,7 +143,7 @@
             }
         },
         "Meta": {
-            "deployCDC": false,
+            "deployCDC": true,
             "datasets": {
                 "cdc": "",
                 "raw": "",
@@ -152,7 +151,7 @@
             }
         },
         "SFMC": {
-            "deployCDC": false,
+            "deployCDC": true,
             "fileTransferBucket": "",
             "datasets": {
                 "cdc": "",
@@ -161,7 +160,7 @@
             }
         },
         "DV360": {
-            "deployCDC": false,
+            "deployCDC": true,
             "datasets": {
                 "raw": "",
                 "cdc": "",
